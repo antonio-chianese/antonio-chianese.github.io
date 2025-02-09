@@ -1,4 +1,0 @@
-gems: [jekyll-mermaid]
-
-mermaid:
-  src: 'scripts/mermaid.js'
