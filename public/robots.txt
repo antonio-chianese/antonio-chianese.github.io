@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-Allow: /
-Sitemap: https://antonio-chianese.github.io/sitemap.xml
