@@ -1,7 +1,15 @@
 +++
-title= "Welcome to SeniorMars's Homepage!"
+title = "6ixSS's here!"
 description = "A blog about math, extremely niche interests, and a guy having fun."
 +++
 
-Heyo! SeniorMars here. It's honestly weird to think that people will spend their time reading things I wrote ( I'm usually on the other side), but I'm hope you enjoy your stay here. You can learn more about me [here](/about) or explore the links up top. Frankly, I'm not sure what I want to make this site about - I like a lot of things, so I guess we'll see where this goes. In either case, this is a blog about math, extremely niche interests, and a guy having fun!
 
+<div style="display: flex; align-items: center;">
+    <img src="/avatar/avatar.png" style="border-radius: 50%; width: 150px; height: 150px;" alt="Description of image">
+    <p style="margin-left: 20px;">
+        I made this blog to talk about my passions. In particular, I’ll be
+        diving into math, computer science, philosophy (maybe), and a few other random
+        interests along the way. I’m excited to share my thoughts as I go and to make
+        life easier to someone.
+    </p>
+</div>
