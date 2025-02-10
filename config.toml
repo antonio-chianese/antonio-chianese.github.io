@@ -60,7 +60,7 @@ menu = [
 socials = [
     { name = "github", url = "https://github.com/antonio-chianese/", icon = "github" },
     # { name = "youtube", url = "https://www.youtube.com/seniormarstries", icon = "youtube" },
-    # { name = "rss", url = "/rss.xml", icon = "rss" },
+    { name = "rss", url = "/rss.xml", icon = "rss" },
 ]
 
 custom_css = []
