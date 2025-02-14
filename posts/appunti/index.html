@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en" class="dark light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="base" content="https:&#x2F;&#x2F;antonio-chianese.github.io">
+
+    
+
+    
+    
+    
+    <title>
+         English revision in preparation of CAE
+        
+    </title>
+
+        
+            <meta property="og:title" content="English revision in preparation of CAE" />
+        
+     
+
+     
+         
+             <meta property="og:description" content="A blog about math, computer science, and a guy having fun." />
+         
+     
+
+     
+         
+             <meta name="description" content="A blog about math, computer science, and a guy having fun." />
+         
+    
+    
+        <link rel="icon" type="image/png" href=&#x2F;icons&#x2F;favicon.ico />
+        
+        
+            <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+            <link rel="manifest" href="/icons/site.webmanifest">
+            <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#ff6f3c">
+            <meta name="apple-mobile-web-app-title" content="6ixSS">
+            <meta name="application-name" content="6ixSS">
+            <meta name="msapplication-TileColor" content="#333333">
+            <meta name="theme-color" content="#333333">
+        
+    
+
+    
+    
+        <link href=https://antonio-chianese.github.io/fonts.css rel="stylesheet" />
+    
+
+    
+    
+        
+
+        
+            
+            
+
+            <script data-goatcounter="https://antonio-chianese.goatcounter.com/count" async src="https://antonio-chianese.github.io/js/count.js"></script>
+            <noscript>
+                
+                <img src="https://antonio-chianese.goatcounter.com//count?p=&#x2F;posts&#x2F;appunti&#x2F;&t=English revision in preparation of CAE">
+            </noscript>
+        
+    
+
+    
+    
+        <script src=https://antonio-chianese.github.io/js/codeblock.js></script>
+    
+
+    
+    
+        <script src=https://antonio-chianese.github.io/js/toc.js></script>
+    
+
+    
+    
+        <script src=https://antonio-chianese.github.io/js/note.js></script>
+    
+
+    
+        
+        <script>
+            MathJax = {
+              loader: { load: ['input/asciimath'] },
+              output: {
+                  displayOverflow: 'linebreak',
+                      linebreaks: {
+                          inline: true,
+                          width: '100%',
+                          lineleading: .2,
+                          LinebreakVisitor: null,
+                  }
+              },
+              tex: {
+                inlineMath: [['$', '$']],
+                processEscapes: true,
+              },
+              svg: {
+                fontCache: 'global'
+              }
+            };
+        </script>
+        
+        <script type="text/javascript" id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0-beta.7/tex-mml-chtml.js">
+        </script>
+    
+
+    
+    
+        <link rel="alternate" type="application/rss+xml" title="6ixSS" href="https://antonio-chianese.github.io/rss.xml">
+    
+
+    
+    
+        <link rel="stylesheet" type="text/css" href=https://antonio-chianese.github.io/theme/light.css />
+        <link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://antonio-chianese.github.io/theme/dark.css" />
+    
+    
+    <!-- Set the correct theme in the script -->
+    <script src=https://antonio-chianese.github.io/js/themetoggle.js></script>
+    
+        <script>setTheme(getSavedTheme());</script>
+    
+
+    
+    <link rel="stylesheet" type="text/css" media="screen" href=https://antonio-chianese.github.io/main.css />
+
+    
+
+    
+    
+        <script src=https://antonio-chianese.github.io/js/mermaid.js></script>
+    
+
+    
+        <script defer src="https://antonio-chianese.github.io/js/searchElasticlunr.min.js?h=3626c0ef99daa745b31e"></script></head>
+
+
+<body>
+    <div class="content">
+        <header>
+    <div class="main">
+        
+            <a href=https:&#x2F;&#x2F;antonio-chianese.github.io>6ixSS</a>
+        
+
+
+        <div class="socials">
+            
+            <a rel="me" href="https:&#x2F;&#x2F;github.com&#x2F;antonio-chianese&#x2F;" class="social">
+                <img alt=github src=https://antonio-chianese.github.io/social_icons/github.svg>
+            </a>
+            
+            <a rel="me" href="&#x2F;rss.xml" class="social">
+                <img alt=rss src=https://antonio-chianese.github.io/social_icons/rss.svg>
+            </a>
+            
+        </div>
+    </div>
+
+    <nav>
+        
+            <a href=https://antonio-chianese.github.io/posts class="nav-item">&#x2F;posts</a>
+        
+            <a href=https://antonio-chianese.github.io/projects class="nav-item">&#x2F;projects</a>
+        
+            <a href=https://antonio-chianese.github.io/about class="nav-item">&#x2F;about</a>
+        
+            <a href=https://antonio-chianese.github.io/etc class="nav-item">&#x2F;etc</a>
+        
+
+        
+            <button 
+                id="search-button"
+                class="search-button"
+                title="$SHORTCUT to open search"
+            >
+                <img 
+                    src="https://antonio-chianese.github.io/search.svg" 
+                    alt="Search" 
+                    class="search-icon"
+                >
+            </button>
+
+            <div id="searchModal" class="search-modal js" role="dialog" aria-labelledby="modalTitle">
+                <div id="modal-content">
+                    <h1 id="modalTitle" class="page-header">Search</h1>
+                    <div id="searchBar">
+                        <input 
+                            id="searchInput" 
+                            role="combobox" 
+                            autocomplete="off" 
+                            spellcheck="false" 
+                            aria-expanded="false" 
+                            aria-controls="results-container" 
+                            placeholder="Search..."
+                        />
+                        <button 
+                            id="clear-search" 
+                            class="clear-button"
+                            title="Clear search"
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                                <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div id="results-container">
+                        <div id="results-info">
+                            <span id="zero_results" style="display: none;">No results</span>
+                            <span id="one_result" style="display: none;">1 result</span>
+                            <span id="many_results" style="display: none;">$NUMBER results</span>
+                        </div>
+                        <div id="results" role="listbox"></div>
+                    </div>
+                </div>
+            </div>
+        
+
+        
+            <a id="dark-mode-toggle" onclick="toggleTheme(); event.preventDefault();" href="#">
+                <img src=https://antonio-chianese.github.io/feather/sun.svg id="sun-icon" style="filter: invert(1);" alt="Light" />
+                <img src=https://antonio-chianese.github.io/feather/moon.svg id="moon-icon" alt="Dark" />
+            </a>
+
+            <!-- Inititialize the theme toggle icons -->
+            <script>updateItemToggleTheme()</script>
+        
+    </nav>
+</header>
+
+
+        
+        
+    
+<main>
+    <article>
+        <div class="title">
+            
+            
+    <div class="page-header">
+        English revision in preparation of CAE<span class="primary-color" style="font-size: 1.6em">.</span>
+    </div>
+
+
+                <div class="meta">
+                    
+                        Posted on <time>2025-02-13</time>
+                    
+
+                    
+
+                    
+                        :: <time>5</time> Min Read
+                    
+
+                    
+                    
+                            <span class="tags-label"> :: Tags:</span>
+                            <span class="tags">
+                                    <a href="https://antonio-chianese.github.io/tags/educational/" class="post-tag">educational</a>, 
+                                
+                                    <a href="https://antonio-chianese.github.io/tags/tutorial/" class="post-tag">tutorial</a>
+                                
+                            </span>
+                    
+
+                    
+                    
+
+                        
+                        
+                            
+                        
+
+                        
+                            
+                            :: <a href="https:&#x2F;&#x2F;github.com&#x2F;antonio-chianese&#x2F;antonio-chianese.github.io&#x2F;blob&#x2F;main&#x2F;content&#x2F;posts&#x2F;appunti.md" target="_blank" rel="noopener noreferrer"> Source Code</a>
+                        
+                    
+
+                    
+
+                </div>
+        </div>
+
+        
+
+        
+        
+        
+            <div class="toc-container">
+                <h1 class="toc-title">Table of Contents</h1>
+                <ul class="toc-list">
+                    
+                        <li>
+                            <a href="https://antonio-chianese.github.io/posts/appunti/#vocabularies">Vocabularies</a>
+                            
+                                <ul>
+                                    
+                                        <li>
+                                            <a href="https://antonio-chianese.github.io/posts/appunti/#constructions">Constructions</a>
+                                        </li>
+
+                                        
+                                    
+                                        <li>
+                                            <a href="https://antonio-chianese.github.io/posts/appunti/#articles">Articles</a>
+                                        </li>
+
+                                        
+                                    
+                                        <li>
+                                            <a href="https://antonio-chianese.github.io/posts/appunti/#phrasal-verbs">Phrasal verbs</a>
+                                        </li>
+
+                                        
+                                    
+                                        <li>
+                                            <a href="https://antonio-chianese.github.io/posts/appunti/#c1-afjectives">C1 Afjectives</a>
+                                        </li>
+
+                                        
+                                    
+                                        <li>
+                                            <a href="https://antonio-chianese.github.io/posts/appunti/#words">Words</a>
+                                        </li>
+
+                                        
+                                    
+                                </ul>
+                            
+                        </li>
+                    
+                        <li>
+                            <a href="https://antonio-chianese.github.io/posts/appunti/#tenses">Tenses</a>
+                            
+                                <ul>
+                                    
+                                        <li>
+                                            <a href="https://antonio-chianese.github.io/posts/appunti/#referring-to-the-present">Referring to the present</a>
+                                        </li>
+
+                                        
+                                    
+                                        <li>
+                                            <a href="https://antonio-chianese.github.io/posts/appunti/#referring-to-the-past">Referring to the past</a>
+                                        </li>
+
+                                        
+                                    
+                                        <li>
+                                            <a href="https://antonio-chianese.github.io/posts/appunti/#referring-to-the-future">Referring to the future</a>
+                                        </li>
+
+                                        
+                                    
+                                </ul>
+                            
+                        </li>
+                    
+                </ul>
+            </div>
+        
+        
+
+        <section class="body">
+            <h1 id="vocabularies"><a class="zola-anchor" href="#vocabularies" aria-label="Anchor link for: vocabularies">Vocabularies</a></h1>
+<h2 id="constructions"><a class="zola-anchor" href="#constructions" aria-label="Anchor link for: constructions">Constructions</a></h2>
+<ul>
+<li>He might have fainted</li>
+<li>They might be feeling…</li>
+<li>I don’t want to brag</li>
+</ul>
+<h2 id="articles"><a class="zola-anchor" href="#articles" aria-label="Anchor link for: articles">Articles</a></h2>
+<ul>
+<li>A decrease in speed</li>
+<li>Direction of travel</li>
+</ul>
+<h2 id="phrasal-verbs"><a class="zola-anchor" href="#phrasal-verbs" aria-label="Anchor link for: phrasal-verbs">Phrasal verbs</a></h2>
+<ul>
+<li>Show off</li>
+<li>Look up to</li>
+</ul>
+<h2 id="c1-afjectives"><a class="zola-anchor" href="#c1-afjectives" aria-label="Anchor link for: c1-afjectives">C1 Afjectives</a></h2>
+<ul>
+<li>Alarmed</li>
+<li>Appalled</li>
+<li>Disgusted</li>
+<li>Distressed</li>
+<li>Helpless</li>
+<li>Hysterical</li>
+<li>Irritated</li>
+<li>Overwhelmed</li>
+<li>Speechless</li>
+<li>Unsafe</li>
+</ul>
+<h2 id="words"><a class="zola-anchor" href="#words" aria-label="Anchor link for: words">Words</a></h2>
+<ul>
+<li>Earthquake</li>
+<li>Oil spill</li>
+<li>Volcanic eruption</li>
+<li>Wildfire</li>
+<li>Tropical storm</li>
+<li>Meteorite strike</li>
+<li>Flood</li>
+<li>Tornado</li>
+</ul>
+<h1 id="tenses"><a class="zola-anchor" href="#tenses" aria-label="Anchor link for: tenses">Tenses</a></h1>
+<h2 id="referring-to-the-present"><a class="zola-anchor" href="#referring-to-the-present" aria-label="Anchor link for: referring-to-the-present">Referring to the present</a></h2>
+<table><thead><tr><th>Tense</th><th>Function</th><th>Examples</th><th>Note</th></tr></thead><tbody>
+<tr><td><strong>Present simple</strong></td><td><ul><li>Regular habit</li><li>Something always true</li></ul></td><td>I <em>see</em> my friends at the weekend</td><td>–</td></tr>
+<tr><td><strong>Present continuous</strong></td><td><ul><li>A plan</li><li>A temporary situation</li><li>With <em>always</em>/<em>forever</em></li></ul></td><td>I’<em>m seeing</em> my friends at the weekend</td><td>Used with <strong>active verbs</strong> (not stative verbs, except those who calls back to an <strong>active verb</strong>, eg. having launch)</td></tr>
+<tr><td><strong>Present perfect</strong></td><td><ul><li><strong>Simple</strong>: <ul><li>To refer to the present result of a past action/event</li><li>To refer to an event/action that happened at an unspecified time in a period up to now</li><li>To focus on the number of times an action has been repeated</li></ul> </li><li><strong>Continuous</strong>: An action that started in the past and has continues until the present</li></ul></td><td><ul><li>I’<em>ve written</em> the article (It’s finished)</li><li>I’<em>ve been writing</em> the article all morning (It probably isn’t finished)</li></ul></td><td><ul><li><strong>Simple</strong>: Focuses on a completed action</li><li><strong>Continuous</strong>: Focuses on an ongoning action</li></ul></td></tr>
+</tbody></table>
+<h2 id="referring-to-the-past"><a class="zola-anchor" href="#referring-to-the-past" aria-label="Anchor link for: referring-to-the-past">Referring to the past</a></h2>
+<table><thead><tr><th>Tense</th><th>Function</th><th>Examples</th><th>Note</th></tr></thead><tbody>
+<tr><td><strong>Past simple</strong></td><td>Past events/actions/habits, with a <strong>time reference</strong></td><td>I always <em>watched</em> the TV news when I lived abroad</td><td>–</td></tr>
+<tr><td><strong>Past continuous</strong></td><td><ul><li>To show a continued action which was happening when another action took place</li><li>To refer to 2 actions happening at the same time in the past</li></ul></td><td><ul><li>The magazine was launched just when the sales of news magazines <em>were falling</em></li><li>While some journalists <em>were discussing</em> the latest developments, others <em>were watching</em> the breaking news online</li></ul></td><td>–</td></tr>
+<tr><td><strong>Past perfect</strong></td><td>To show that an action happened earlier than another past action</td><td>I didn’t watch the programme about hurricanes on TV last night, because I’<em>d</em> already <em>seen</em> a similar programme</td><td>–</td></tr>
+<tr><td><strong>Past perfect continuous</strong></td><td><ul><li>To refer to an action that happened during a period leading up to another past action</li><li>To show how long an action continued until a certain point in the past</li></ul></td><td><ul><li>The newspaper <em>had been losing</em> so much money that the owner decided to close it down</li><li>The reporters <em>had been following</em> the film star for days before they were able to interview her</li></ul></td><td>–</td></tr>
+<tr><td><ul><li> <strong>Used to/Didn’t use to + Infinitive</strong></li><li><strong>Would + Infinitive</strong></li></ul></td><td><ul><li>To refer to repeated actions or habits in the past that are no longer the case</li><li>To refer to a past state (not <em>Would</em>)</li></ul></td><td><ul><li>Before digital cameras were invented, people <em>used to take/would take</em> photos on film</li><li>This <em>used to be</em> (<del>Would be</del>) a very quiet neighbourhood</li></ul></td><td><em>Used to</em> is not normally used with time expressions specifying the duration of the action: <ul><li><em>I used to live</em> in Edinburgh before I moved to London</li><li><em>I lived</em> (<del>Used to live</del>) in Edinburgh for five years before I moved to London </li></ul></td></tr>
+</tbody></table>
+<h2 id="referring-to-the-future"><a class="zola-anchor" href="#referring-to-the-future" aria-label="Anchor link for: referring-to-the-future">Referring to the future</a></h2>
+<table><thead><tr><th>Tense</th><th>Function</th><th>Examples</th><th>Note</th></tr></thead><tbody>
+<tr><td><strong>Future simple (<em>will</em> + Infinitive)</strong></td><td><ul><li>To predict the future</li><li>To express a decision that has just been made (usually by the speaker)</li><li>To express the speaker’s insistence on doing something</li></ul></td><td><ul><li>Aftershocks from yesterday’s earthquake <em>will</em> probably <em>continue</em> for several days </li><li>I know! We’<em>ll go</em> to the Science Museum</li><li>We <em>will find</em> somewhere better to live - I promise you</li></ul></td><td>–</td></tr>
+<tr><td><strong>Going to + Infinitive</strong></td><td><ul><li>For decisions/intensions about the future</li><li>For predictions about the future <strong>based on evidence</strong>, or to refer to the outcome of a process that has already started</li></ul></td><td><ul><li>The owner of the local bookshop <em>is going to invite</em> a well-known author to give a talk</li><li>You drive much too fast. You’<em>re going to have</em> an accident one of these days</li></ul></td><td>–</td></tr>
+<tr><td><strong>Present continuous</strong></td><td>To refer to something already arranged</td><td>We’<em>re meating</em> the journalist tomorrow morning</td><td>–</td></tr>
+<tr><td><strong>Present simple</strong></td><td>For future events fixed by a <strong>timetable or schedule</strong></td><td><ul><li>The sun <em>rises</em> at 5.30 tomorrow</li><li>The next train <em>is</em> at 11 o’clock</li></ul></td><td>–</td></tr>
+<tr><td><strong>Future continuous</strong></td><td><ul><li>For temporary actions in progress at a particular time in the future</li><li>To ask about the listener’s plans (often to lead on to a request) </li></ul></td><td><ul><li>This time next week, we’<em>ll be flying</em> to Brazil</li><li><em>Will</em> you <em>be going</em> out this evening? If not, can I come around and see you?</li></ul></td><td>–</td></tr>
+<tr><td><strong>Future perfect</strong></td><td><ul><li>For actions in a period up to a particular time in the future</li><li>For actions which will be completed before a particular time in the future </li></ul></td><td><ul><li>The oil spill <em>will have caused</em> a lot of damage by the time the flow from the ship can be stopped</li><li>I’<em>ll have finished lunch</em> long before you arrive</li></ul></td><td>–</td></tr>
+<tr><td><strong>Future perfect continuous</strong></td><td>For actions in a period up to a particular time in the future, <strong>emphasising the lenght of time</strong></td><td>At the beginning of next March, I’<em>ll have been working</em> in the same job for 17 years</td><td>–</td></tr>
+</tbody></table>
+<blockquote>
+<p><strong><em>NOTE:</em></strong>  In <strong>time and conditional clauses referring to the future</strong> <em>will</em> is not normally used to refer to the future. Instead, present tenses (simple, continuous and perfect) are used.</p>
+</blockquote>
+
+        </section>
+    </article>
+</main>
+
+
+
+        
+            
+        
+
+        
+    </div>
+</body>
+
+</html>
