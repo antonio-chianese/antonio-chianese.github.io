@@ -1,6 +1,13 @@
 +++
-title = "Math Symbol Support Test"
+title = "English revision in preparation of CAE"
 date = "2025-02-13"
+
+[taxonomies]
+tags=["educational", "tutorial"]
+
+[extra]
+repo_view = true
+read_time = true
 +++
 
 # Vocabularies
