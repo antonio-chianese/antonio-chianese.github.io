@@ -1,7 +1,14 @@
 ---
 title: "English revision in preparation of CAE"
-publishedAt: "2025-02-13"
-summary: "A rapid English revision in preparation of the CAE English test"
+date = "2025-02-13"
+# updated = "2024-06-14"
+
+[taxonomies]
+tags=["educational", "tutorial"]
+
+[extra]
+repo_view = true
+read_time = true
 ---
 
 # Vocabularies
