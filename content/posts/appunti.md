@@ -1,7 +1,6 @@
 ---
 title: "English revision in preparation of CAE"
 date = "2025-02-13"
-# updated = "2024-06-14"
 
 [taxonomies]
 tags=["educational", "tutorial"]
